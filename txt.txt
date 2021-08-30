@@ -1,0 +1,54 @@
+
+Objetivos da aula:
+
+1. Conhecer a estrutura básica.
+2. Entender a diferença entre Flex Container e Flex itens.
+3. Conhecer inicialmente algumas propriedades.
+
+Suporte:
+
+
+Foi projetado com um modelo de layout unidimencional e com um metodo que pode 
+oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento.
+
+Flex Container:
+
+É uma tag que envolve os itens, será nela que iremos aplicar a propriedade "display:flex".
+Transformando todos os itens filhos em itens.
+
+Flex Container possui propriedades relacionadas que são:
+
+display: que é o iniializador do container.
+flex direction: que vai fazer o acionamento desses itens, seja em linha ou coluna.
+flex wrap: qu vai se aplicar para quebra de linha ou não.
+flex flow: abreviação do direction wrap.
+justify-content: alinha os itens e o container de acordo com a sua direção.
+align-itens: alinha de acordo com o eixo do container.
+align-content: alinha as linhas do container.
+
+Flex itens:
+
+São os elementos filhos diretos do  Flex container. E tambem podem se tornar flex container.
+
+Flex Itens
+
+propriedades relacionadas:
+
+flex-glow: defini o fator de crescimento.
+flax-basis: define o tamanho inicial do item, antes da distribuição do espaço restante dentro do container.
+flex-shrink: define a capacidade de redução.
+flex: abreviação das tres propriedade acima.
+order: relacionadas a ordem de distribuição  e listagem desses itens.
+align-self: define o alinhamento de um item epecifico do container.
+
+Flex Direction:
+
+É a propriedade  que estabelece  o eixo principal do container, definindo assim a direção que os  flex itens
+são colocados no flex container.
+
+row (padrão): à direção do texto, esquerda  para direita
+row-reverse: sentido contrario a direção do texto.
+columm: ordenação de cima para baixo, em coluna unica.
+columm-reverse: ordenação iinversa, de baixo para cima.
+
+
