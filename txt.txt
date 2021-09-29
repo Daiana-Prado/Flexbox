@@ -51,4 +51,17 @@ row-reverse: sentido contrario a direção do texto.
 columm: ordenação de cima para baixo, em coluna unica.
 columm-reverse: ordenação iinversa, de baixo para cima.
 
+flex-wrap
+
+É a ppropriedade que define se os itens devem ou não quebrar a linha.
+Por padrão eles não quebram linhas, isso faz com que os flex Itens sejam compactados
+álem do limite do conteúdo.
+
+Nowrap: É o padrão, não permite a quebra de linha.
+wrap: permite a quebra de linha assim que um dos flex itens não puder ser mais compactado.
+wrap reverse: permite a quebra de linha assim que um dos flex itens não puder ser mais compactado,
+porem na direção contrria a linha, acima.
+
+
+
 
